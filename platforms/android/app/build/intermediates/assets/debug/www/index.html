@@ -33,37 +33,23 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
-        <style>
-          #map {
-            display: block;
-            height: 400px;
-            width: 100%;
-            margin-bottom: 10px;
-          }
-        </style>
+        <title>Map App</title>
     </head>
-    <body onload="onLoad()">
+    <body>
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">DEVICE IS READY</p>
-                <div>
-                  <input id="address" type="textbox" value="Sydney, NSW">
-                  <button id="submit" type="button" name="button">Geocode</button>
-                  <button id="mark-location">Mark your location</button>
-                </div>
+                <a href="phase1.html">Phase 1</a>
+                <a href="phase2-3.html">Phase 2& 3</a>
+                <a href="phase4.html">Phase 4</a>
+                <a href="phase6.html">Phase 6</a>
             </div>
-            <div id="map"></div>
-            <p id="add-info"></p>
         </div>
 
         <!--External JS fles-->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/geolocation.js"></script>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy05xPn7O-Xi6zP0gKHyiGBmMT22-QRY4"></script>
     </body>
 </html>
