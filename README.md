@@ -1,4 +1,4 @@
-# Camera Hybrib App
+# Map Hybrib App
 
 - This Android Map application include some google map function that allows user:
   + Geocoding a location by address that user input and mark it
