@@ -3,11 +3,11 @@ function onLoad() {
     initMap();
 }
 
-//Using MySQL documentation: https://developers.google.com/maps/documentation/javascript/info-windows-to-db
+//Using MySQL documentation: https://developers.google.com/maps/documentation/javascript/mysql-to-maps
 function initMap() {
 var map = new google.maps.Map(document.getElementById('map'), {
   center: new google.maps.LatLng(37.441898, -122.143700),
-  zoom: 12
+  zoom: 14
 });
 var infoWindow = new google.maps.InfoWindow;
 
